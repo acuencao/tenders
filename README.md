@@ -7,7 +7,7 @@ The approach allows for the suggestion of possible favourable scenarios for new 
 This repository contains the code, experimental notebooks, and methodological artefacts
 used in the scientific article:
 
-‘Analysis of public tenders with Rule Systems to improve decision-making’
+"Analysis of public tenders with Rule Systems to improve decision-making"
 
 The purpose of this repository is to facilitate experimental reproducibility, verification of
 results, and methodological evaluation by academic reviewers. The repository is presented as supplementary material to the article.
