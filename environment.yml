@@ -1,0 +1,17 @@
+name: tenders-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - pyarrow
+  - pip
+  - pip:
+      - scikit-learn
+      - imbalanced-learn
+      - lime
