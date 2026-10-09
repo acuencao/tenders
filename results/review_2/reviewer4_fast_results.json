@@ -1,0 +1,1473 @@
+{
+  "prosp_temporal": {
+    "2022": {
+      "f1_macro": 0.5332732793494551,
+      "f1_pos": 0.7596628445591921,
+      "auc": 0.5864449147908117,
+      "majority_f1_macro": 0.4514732262520877
+    },
+    "2023": {
+      "f1_macro": 0.5138938801846054,
+      "f1_pos": 0.7648480978012955,
+      "auc": 0.5622596018254769,
+      "majority_f1_macro": 0.45886668163784716
+    },
+    "2022-2023": {
+      "f1_macro": 0.5235363575670902,
+      "f1_pos": 0.7623903732408729,
+      "auc": 0.5746179311092255,
+      "majority_f1_macro": 0.45534899690979547
+    }
+  },
+  "prosp_country": {
+    "per_fold": [
+      {
+        "f1_macro": 0.3816986966718875,
+        "f1_pos": 0.5335031522638987,
+        "auc": 0.5329425134697194,
+        "fold": 1,
+        "countries": [
+          "pl"
+        ],
+        "n_test": 63038,
+        "majority_f1_macro": 0.46163240556490254
+      },
+      {
+        "f1_macro": 0.5121214266006671,
+        "f1_pos": 0.6834133953431447,
+        "auc": 0.5108856655168389,
+        "fold": 2,
+        "countries": [
+          "at",
+          "cz",
+          "lu",
+          "ro",
+          "sk"
+        ],
+        "n_test": 24190,
+        "majority_f1_macro": 0.39552201509320806
+      },
+      {
+        "f1_macro": 0.4813946822476104,
+        "f1_pos": 0.7303905113572787,
+        "auc": 0.4839958531094949,
+        "fold": 3,
+        "countries": [
+          "be",
+          "cy",
+          "ee",
+          "fi",
+          "fr",
+          "hr",
+          "mk",
+          "mt",
+          "nl",
+          "se"
+        ],
+        "n_test": 24152,
+        "majority_f1_macro": 0.4432072296378265
+      },
+      {
+        "f1_macro": 0.48453260114091606,
+        "f1_pos": 0.7595734367426078,
+        "auc": 0.5235086718184235,
+        "fold": 4,
+        "countries": [
+          "bg",
+          "gr",
+          "hu",
+          "it",
+          "lt",
+          "no",
+          "pt"
+        ],
+        "n_test": 24214,
+        "majority_f1_macro": 0.4658048005647723
+      },
+      {
+        "f1_macro": 0.44782837057418134,
+        "f1_pos": 0.6905891486241698,
+        "auc": 0.4899816978027186,
+        "fold": 5,
+        "countries": [
+          "de",
+          "dk",
+          "es",
+          "ie",
+          "lv",
+          "si",
+          "uk"
+        ],
+        "n_test": 24158,
+        "majority_f1_macro": 0.4587049070132198
+      }
+    ],
+    "summary": {
+      "f1_macro": [
+        0.46151515544705246,
+        0.044819612322556046
+      ],
+      "f1_pos": [
+        0.67949392886622,
+        0.0780448110547824
+      ],
+      "auc": [
+        0.508262880343439,
+        0.018822793081115466
+      ],
+      "majority_f1_macro": [
+        0.4449742715747858,
+        0.02587888260302307
+      ]
+    }
+  },
+  "prosp_pooled_cv": {
+    "f1_macro": 0.5515310964117536,
+    "f1_pos": 0.7535571408226414,
+    "auc": 0.6451004821462941
+  },
+  "prosp_per_country": [
+    {
+      "country": "pl",
+      "n": 63038,
+      "majority_f1_macro": 0.46163240556490254,
+      "within": {
+        "f1_macro": 0.5511359304875163,
+        "f1_pos": 0.754120924135671,
+        "auc": 0.7078998589164753
+      },
+      "pooled_included": {
+        "f1_macro": 0.5323651350312449,
+        "f1_pos": 0.7374143958358605,
+        "auc": 0.673031977796355
+      },
+      "pooled_excluded": {
+        "f1_macro": 0.3816986966718875,
+        "f1_pos": 0.5335031522638987,
+        "auc": 0.5329425134697194
+      }
+    },
+    {
+      "country": "ro",
+      "n": 21756,
+      "majority_f1_macro": 0.3882921891694315,
+      "within": {
+        "f1_macro": 0.6467799296468767,
+        "f1_pos": 0.7263177640217595,
+        "auc": 0.7333518219378342
+      },
+      "pooled_included": {
+        "f1_macro": 0.5989111867784718,
+        "f1_pos": 0.6748850330409244,
+        "auc": 0.6651555357460833
+      },
+      "pooled_excluded": {
+        "f1_macro": 0.511591210812528,
+        "f1_pos": 0.6629000561482313,
+        "auc": 0.5170235211865465
+      }
+    },
+    {
+      "country": "fr",
+      "n": 17924,
+      "majority_f1_macro": 0.44404466501240697,
+      "within": {
+        "f1_macro": 0.52670339649482,
+        "f1_pos": 0.6975485775190621,
+        "auc": 0.6132739293916409
+      },
+      "pooled_included": {
+        "f1_macro": 0.5131809568781495,
+        "f1_pos": 0.7569978811196609,
+        "auc": 0.5462654704177918
+      },
+      "pooled_excluded": {
+        "f1_macro": 0.47818065619555605,
+        "f1_pos": 0.7345778309827541,
+        "auc": 0.4750992350208688
+      }
+    },
+    {
+      "country": "hu",
+      "n": 15660,
+      "majority_f1_macro": 0.46456046774028104,
+      "within": {
+        "f1_macro": 0.5581382029262845,
+        "f1_pos": 0.7852201788425848,
+        "auc": 0.7119080655507266
+      },
+      "pooled_included": {
+        "f1_macro": 0.5305431527129865,
+        "f1_pos": 0.7915623589280585,
+        "auc": 0.6257326647080538
+      },
+      "pooled_excluded": {
+        "f1_macro": 0.4966769781103625,
+        "f1_pos": 0.7834682504169548,
+        "auc": 0.5259242122668333
+      }
+    },
+    {
+      "country": "si",
+      "n": 7162,
+      "majority_f1_macro": 0.47916515162533635,
+      "within": {
+        "f1_macro": 0.5048797110719443,
+        "f1_pos": 0.7892869811990068,
+        "auc": 0.6761740242410469
+      },
+      "pooled_included": {
+        "f1_macro": 0.5894581256257221,
+        "f1_pos": 0.9366016038735058,
+        "auc": 0.6800002754604229
+      },
+      "pooled_excluded": {
+        "f1_macro": 0.3833021621700219,
+        "f1_pos": 0.6156186612576064,
+        "auc": 0.5440797595654294
+      }
+    },
+    {
+      "country": "uk",
+      "n": 5499,
+      "majority_f1_macro": 0.46455696202531643,
+      "within": {
+        "f1_macro": 0.5061403598565487,
+        "f1_pos": 0.7115335217056254,
+        "auc": 0.6864088149327093
+      },
+      "pooled_included": {
+        "f1_macro": 0.5025674759631489,
+        "f1_pos": 0.7754814466885862,
+        "auc": 0.6059081481293805
+      },
+      "pooled_excluded": {
+        "f1_macro": 0.44624328214584885,
+        "f1_pos": 0.7129004541549037,
+        "auc": 0.5106204841061266
+      }
+    },
+    {
+      "country": "de",
+      "n": 5053,
+      "majority_f1_macro": 0.4383059137394398,
+      "within": {
+        "f1_macro": 0.5597991566585607,
+        "f1_pos": 0.7106853352984525,
+        "auc": 0.6647641047083097
+      },
+      "pooled_included": {
+        "f1_macro": 0.5222445689706581,
+        "f1_pos": 0.7280774550484094,
+        "auc": 0.5749924030040693
+      },
+      "pooled_excluded": {
+        "f1_macro": 0.48716127067898096,
+        "f1_pos": 0.7288135593220338,
+        "auc": 0.4905252323081387
+      }
+    }
+  ],
+  "lime_rules": {
+    "B": {
+      "summary": {
+        "n_rules": 50,
+        "empty_rules": 0,
+        "conditions_mean": 3.86,
+        "coverage_mean": 0.14391486697965572,
+        "coverage_median": 0.08989045383411581,
+        "precision_model_mean": 0.6604543738186203,
+        "precision_model_median": 0.6666666666666666,
+        "share_precision_ge_0.95": 0.1,
+        "precision_true_mean": 0.6436675396517597,
+        "base_rate_model_mean": 0.5298892018779342
+      },
+      "rules": [
+        {
+          "n_conditions": 6,
+          "coverage": 0.08926447574334899,
+          "precision_model": 0.7391304347826086,
+          "precision_true": 0.30925666199158486,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 1768,
+          "predicted": "0",
+          "rule": [
+            "NUMBER_AWARDS > 20.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "GROUP_CPV_45 <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "1.00 < NUMBER_OFFERS <= 3.00"
+          ],
+          "lime_r2": 0.1852921701179815
+        },
+        {
+          "n_conditions": 2,
+          "coverage": 0.23442879499217528,
+          "precision_model": 0.6995994659546061,
+          "precision_true": 0.8421895861148198,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 1533,
+          "predicted": "1",
+          "rule": [
+            "CAE_TYPE_5 <= 0.00",
+            "7.00 < LOTS_NUMBER <= 17.00"
+          ],
+          "lime_r2": 0.05551818946300724
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.011392801251956181,
+          "precision_model": 0.47802197802197804,
+          "precision_true": 0.8131868131868132,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 9129,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "TYPE_OF_CONTRACT_w > 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "CAE_TYPE_3 > 0.00"
+          ],
+          "lime_r2": 0.1495609916591505
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.06485133020344289,
+          "precision_model": 0.39768339768339767,
+          "precision_true": 0.7934362934362934,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 12190,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "MAIN_ACTIVITY_health <= 0.00",
+            "CAE_TYPE_5 <= 0.00",
+            "NUMBER_OFFERS > 4.00"
+          ],
+          "lime_r2": 0.19276830212294527
+        },
+        {
+          "n_conditions": 2,
+          "coverage": 0.3027230046948357,
+          "precision_model": 0.6066997518610422,
+          "precision_true": 0.8509098428453267,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 12705,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "CAE_TYPE_4 <= 0.00"
+          ],
+          "lime_r2": 0.21643364127187825
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.09039123630672927,
+          "precision_model": 0.3940443213296399,
+          "precision_true": 0.1945983379501385,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 4708,
+          "predicted": "0",
+          "rule": [
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "LOTS_NUMBER <= 3.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "1.00 < NUMBER_OFFERS <= 3.00",
+            "GROUP_CPV_33 <= 0.00"
+          ],
+          "lime_r2": 0.1995749341347305
+        },
+        {
+          "n_conditions": 2,
+          "coverage": 0.18885758998435054,
+          "precision_model": 0.7497514086841233,
+          "precision_true": 0.8501823002983095,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 2085,
+          "predicted": "1",
+          "rule": [
+            "CAE_TYPE_4 <= 0.00",
+            "4.00 < NUMBER_AWARDS <= 8.00"
+          ],
+          "lime_r2": 0.0718516825280251
+        },
+        {
+          "n_conditions": 2,
+          "coverage": 0.2739906103286385,
+          "precision_model": 0.6118345899017592,
+          "precision_true": 0.8457847840986977,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 2323,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "MAIN_ACTIVITY_health <= 0.00"
+          ],
+          "lime_r2": 0.16803270980563834
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.30109546165884193,
+          "precision_model": 0.6066528066528066,
+          "precision_true": 0.8515592515592516,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 7717,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "CAE_TYPE_5 <= 0.00",
+            "CAE_TYPE_4 <= 0.00"
+          ],
+          "lime_r2": 0.19845663201873587
+        },
+        {
+          "n_conditions": 1,
+          "coverage": 0.321189358372457,
+          "precision_model": 0.6051451958682518,
+          "precision_true": 0.8487624244786591,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 1799,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00"
+          ],
+          "lime_r2": 0.22057465270158227
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.08926447574334899,
+          "precision_model": 0.7391304347826086,
+          "precision_true": 0.30925666199158486,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 3411,
+          "predicted": "0",
+          "rule": [
+            "NUMBER_AWARDS > 20.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "CAE_TYPE_5 <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "1.00 < NUMBER_OFFERS <= 3.00"
+          ],
+          "lime_r2": 0.2033327043762767
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.0697339593114241,
+          "precision_model": 0.5305206463195691,
+          "precision_true": 0.8132854578096947,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 4031,
+          "predicted": "1",
+          "rule": [
+            "7.00 < LOTS_NUMBER <= 17.00",
+            "0.00 < GROUP_CPV_33 <= 1.00",
+            "CAE_TYPE_4 <= 0.00"
+          ],
+          "lime_r2": 0.057749777131115065
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.08732394366197183,
+          "precision_model": 0.96415770609319,
+          "precision_true": 0.9483870967741935,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 11490,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "CAE_TYPE_5 <= 0.00",
+            "NUMBER_OFFERS <= 1.00",
+            "CAE_TYPE_4 <= 0.00"
+          ],
+          "lime_r2": 0.23957309438337304
+        },
+        {
+          "n_conditions": 1,
+          "coverage": 0.19117370892018778,
+          "precision_model": 0.6303208906352324,
+          "precision_true": 0.8159790438768828,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 12081,
+          "predicted": "1",
+          "rule": [
+            "CAE_TYPE_3 > 0.00"
+          ],
+          "lime_r2": 0.05594116185319009
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.03405320813771518,
+          "precision_model": 0.7886029411764706,
+          "precision_true": 0.8786764705882353,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 4826,
+          "predicted": "1",
+          "rule": [
+            "GROUP_CPV_15 > 0.00",
+            "7.00 < LOTS_NUMBER <= 17.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00"
+          ],
+          "lime_r2": 0.0491492664007156
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.08938967136150235,
+          "precision_model": 0.738795518207283,
+          "precision_true": 0.3088235294117647,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 2227,
+          "predicted": "0",
+          "rule": [
+            "NUMBER_AWARDS > 20.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "1.00 < NUMBER_OFFERS <= 3.00",
+            "GROUP_CPV_45 <= 0.00"
+          ],
+          "lime_r2": 0.21069698155954086
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.07480438184663536,
+          "precision_model": 0.6125523012552301,
+          "precision_true": 0.26276150627615064,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 9767,
+          "predicted": "0",
+          "rule": [
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "3.00 < NUMBER_OFFERS <= 4.00",
+            "MAIN_ACTIVITY_general public\\services <= 0.00",
+            "CAE_TYPE_5 <= 0.00"
+          ],
+          "lime_r2": 0.10057645675345916
+        },
+        {
+          "n_conditions": 1,
+          "coverage": 0.321189358372457,
+          "precision_model": 0.6051451958682518,
+          "precision_true": 0.8487624244786591,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 6330,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00"
+          ],
+          "lime_r2": 0.25019636342824614
+        },
+        {
+          "n_conditions": 6,
+          "coverage": 0.12982785602503913,
+          "precision_model": 0.7984570877531341,
+          "precision_true": 0.27145612343297976,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 5364,
+          "predicted": "0",
+          "rule": [
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "CAE_TYPE_5 <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "1.00 < NUMBER_OFFERS <= 3.00",
+            "CAE_TYPE_4 <= 0.00",
+            "0.00 < MAIN_ACTIVITY_health <= 1.00"
+          ],
+          "lime_r2": 0.05335833511147603
+        },
+        {
+          "n_conditions": 2,
+          "coverage": 0.18885758998435054,
+          "precision_model": 0.7497514086841233,
+          "precision_true": 0.8501823002983095,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 2238,
+          "predicted": "1",
+          "rule": [
+            "4.00 < NUMBER_AWARDS <= 8.00",
+            "CAE_TYPE_4 <= 0.00"
+          ],
+          "lime_r2": 0.04601687615858818
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.014272300469483568,
+          "precision_model": 0.6798245614035088,
+          "precision_true": 0.8026315789473685,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 4750,
+          "predicted": "1",
+          "rule": [
+            "LOTS_NUMBER > 17.00",
+            "CAE_TYPE_5 <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "CAE_TYPE_3 > 0.00",
+            "MAIN_ACTIVITY_health <= 0.00"
+          ],
+          "lime_r2": 0.11328004826392146
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.25496087636932707,
+          "precision_model": 0.6145347409771668,
+          "precision_true": 0.8485146083967592,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 1722,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "CAE_TYPE_4 <= 0.00",
+            "MAIN_ACTIVITY_health <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00"
+          ],
+          "lime_r2": 0.174184146251965
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.010453834115805947,
+          "precision_model": 0.9940119760479041,
+          "precision_true": 0.9520958083832335,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 10588,
+          "predicted": "1",
+          "rule": [
+            "7.00 < LOTS_NUMBER <= 17.00",
+            "NUMBER_OFFERS <= 1.00",
+            "4.00 < NUMBER_AWARDS <= 8.00"
+          ],
+          "lime_r2": 0.05884934265384656
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.2269796557120501,
+          "precision_model": 0.7002206287920574,
+          "precision_true": 0.84142305570877,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 3422,
+          "predicted": "1",
+          "rule": [
+            "7.00 < LOTS_NUMBER <= 17.00",
+            "CAE_TYPE_4 <= 0.00",
+            "CAE_TYPE_5 <= 0.00"
+          ],
+          "lime_r2": 0.0644058368130076
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.012394366197183098,
+          "precision_model": 0.7878787878787878,
+          "precision_true": 0.8838383838383839,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 6728,
+          "predicted": "1",
+          "rule": [
+            "4.00 < NUMBER_AWARDS <= 8.00",
+            "TYPE_OF_CONTRACT_w > 0.00",
+            "MAIN_ACTIVITY_health <= 0.00"
+          ],
+          "lime_r2": 0.060786613317639904
+        },
+        {
+          "n_conditions": 1,
+          "coverage": 0.321189358372457,
+          "precision_model": 0.6051451958682518,
+          "precision_true": 0.8487624244786591,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 5503,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00"
+          ],
+          "lime_r2": 0.14606366488846434
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.017464788732394366,
+          "precision_model": 0.967741935483871,
+          "precision_true": 0.9283154121863799,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 7159,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_OFFERS <= 1.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "4.00 < NUMBER_AWARDS <= 8.00",
+            "0.00 < GROUP_CPV_33 <= 1.00"
+          ],
+          "lime_r2": 0.08904722501814744
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.15561815336463225,
+          "precision_model": 0.7634754625905068,
+          "precision_true": 0.8487530168946098,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 4121,
+          "predicted": "1",
+          "rule": [
+            "CAE_TYPE_5 <= 0.00",
+            "4.00 < NUMBER_AWARDS <= 8.00",
+            "MAIN_ACTIVITY_health <= 0.00"
+          ],
+          "lime_r2": 0.06117748146301483
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.03486697965571205,
+          "precision_model": 0.9192100538599641,
+          "precision_true": 0.9245960502692998,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 563,
+          "predicted": "1",
+          "rule": [
+            "LOTS_NUMBER > 17.00",
+            "NUMBER_OFFERS <= 1.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "0.00 < GROUP_CPV_33 <= 1.00",
+            "CAE_TYPE_5 <= 0.00"
+          ],
+          "lime_r2": 0.22168450596322742
+        },
+        {
+          "n_conditions": 8,
+          "coverage": 0.0008763693270735524,
+          "precision_model": 0.7142857142857143,
+          "precision_true": 0.7857142857142857,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 5766,
+          "predicted": "0",
+          "rule": [
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "LOTS_NUMBER <= 3.00",
+            "NUMBER_AWARDS > 20.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "1.00 < NUMBER_OFFERS <= 3.00",
+            "CAE_TYPE_5 <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "GROUP_CPV_33 <= 0.00"
+          ],
+          "lime_r2": 0.24046422099742726
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.003755868544600939,
+          "precision_model": 0.6666666666666666,
+          "precision_true": 0.85,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 12751,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "0.00 < GROUP_CPV_33 <= 1.00",
+            "CAE_TYPE_3 > 0.00"
+          ],
+          "lime_r2": 0.16666613355250426
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.2503286384976526,
+          "precision_model": 0.9182295573893473,
+          "precision_true": 0.9182295573893473,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 101,
+          "predicted": "1",
+          "rule": [
+            "CAE_TYPE_5 <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "NUMBER_OFFERS <= 1.00"
+          ],
+          "lime_r2": 0.03992985303440655
+        },
+        {
+          "n_conditions": 7,
+          "coverage": 0.0041314553990610325,
+          "precision_model": 0.6666666666666666,
+          "precision_true": 0.36363636363636365,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 4511,
+          "predicted": "0",
+          "rule": [
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "LOTS_NUMBER <= 3.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "8.00 < NUMBER_AWARDS <= 20.00",
+            "GROUP_CPV_15 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "GROUP_CPV_33 <= 0.00"
+          ],
+          "lime_r2": 0.11352252142150254
+        },
+        {
+          "n_conditions": 6,
+          "coverage": 0.02629107981220657,
+          "precision_model": 0.6785714285714286,
+          "precision_true": 0.3380952380952381,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 6641,
+          "predicted": "0",
+          "rule": [
+            "NUMBER_AWARDS > 20.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "3.00 < NUMBER_OFFERS <= 4.00",
+            "CAE_TYPE_3 <= 0.00"
+          ],
+          "lime_r2": 0.2060359693810303
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.23586854460093898,
+          "precision_model": 0.31528662420382164,
+          "precision_true": 0.1695859872611465,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 5763,
+          "predicted": "0",
+          "rule": [
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "GROUP_CPV_45 <= 0.00",
+            "3.00 < LOTS_NUMBER <= 7.00"
+          ],
+          "lime_r2": 0.03531868271619498
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.09270735524256651,
+          "precision_model": 0.9615124915597569,
+          "precision_true": 0.9439567859554355,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 6407,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "CAE_TYPE_5 <= 0.00",
+            "NUMBER_OFFERS <= 1.00"
+          ],
+          "lime_r2": 0.1752348832938957
+        },
+        {
+          "n_conditions": 7,
+          "coverage": 0.13370892018779343,
+          "precision_model": 0.29213483146067415,
+          "precision_true": 0.16104868913857678,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 11726,
+          "predicted": "0",
+          "rule": [
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "GROUP_CPV_33 <= 0.00",
+            "GROUP_CPV_15 <= 0.00",
+            "3.00 < LOTS_NUMBER <= 7.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "CAE_TYPE_3 <= 0.00"
+          ],
+          "lime_r2": 0.04766696303833695
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.2243505477308294,
+          "precision_model": 0.40262276785714285,
+          "precision_true": 0.177734375,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 2764,
+          "predicted": "0",
+          "rule": [
+            "LOTS_NUMBER <= 3.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "GROUP_CPV_33 <= 0.00",
+            "GROUP_CPV_15 <= 0.00"
+          ],
+          "lime_r2": 0.18519647875659828
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.21746478873239436,
+          "precision_model": 0.5558434081750144,
+          "precision_true": 0.2835348301669545,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 123,
+          "predicted": "0",
+          "rule": [
+            "NUMBER_AWARDS > 20.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "GROUP_CPV_45 <= 0.00",
+            "CAE_TYPE_5 <= 0.00"
+          ],
+          "lime_r2": 0.1828306845785801
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.20788732394366197,
+          "precision_model": 0.5600722673893406,
+          "precision_true": 0.2797350195724179,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 13301,
+          "predicted": "0",
+          "rule": [
+            "NUMBER_AWARDS > 20.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "GROUP_CPV_15 <= 0.00",
+            "GROUP_CPV_45 <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00"
+          ],
+          "lime_r2": 0.23647101122555514
+        },
+        {
+          "n_conditions": 2,
+          "coverage": 0.05126760563380282,
+          "precision_model": 0.518925518925519,
+          "precision_true": 0.702075702075702,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 15813,
+          "predicted": "1",
+          "rule": [
+            "LOTS_NUMBER > 17.00",
+            "NUMBER_OFFERS > 4.00"
+          ],
+          "lime_r2": 0.17310648200563272
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.01915492957746479,
+          "precision_model": 0.7973856209150327,
+          "precision_true": 0.3758169934640523,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 1328,
+          "predicted": "0",
+          "rule": [
+            "NUMBER_AWARDS > 20.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "3.00 < NUMBER_OFFERS <= 4.00",
+            "0.00 < MAIN_ACTIVITY_health <= 1.00"
+          ],
+          "lime_r2": 0.15136813426631712
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.03486697965571205,
+          "precision_model": 0.9192100538599641,
+          "precision_true": 0.9245960502692998,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 6550,
+          "predicted": "1",
+          "rule": [
+            "LOTS_NUMBER > 17.00",
+            "NUMBER_OFFERS <= 1.00",
+            "CAE_TYPE_4 <= 0.00",
+            "0.00 < GROUP_CPV_33 <= 1.00"
+          ],
+          "lime_r2": 0.2197865443860727
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.08751173708920187,
+          "precision_model": 0.9642346208869814,
+          "precision_true": 0.9484978540772532,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 15249,
+          "predicted": "1",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "NUMBER_OFFERS <= 1.00",
+            "CAE_TYPE_4 <= 0.00"
+          ],
+          "lime_r2": 0.18878351097472168
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.001815336463223787,
+          "precision_model": 0.4827586206896552,
+          "precision_true": 0.3103448275862069,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 14282,
+          "predicted": "0",
+          "rule": [
+            "LOTS_NUMBER <= 3.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "CAE_TYPE_5 > 0.00",
+            "GROUP_CPV_45 <= 0.00",
+            "GROUP_CPV_33 <= 0.00"
+          ],
+          "lime_r2": 0.2094494664298644
+        },
+        {
+          "n_conditions": 2,
+          "coverage": 0.9576838810641628,
+          "precision_model": 0.6244198967252762,
+          "precision_true": 0.8186809595398392,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 2334,
+          "predicted": "1",
+          "rule": [
+            "CAE_TYPE_4 <= 0.00",
+            "CAE_TYPE_5 <= 0.00"
+          ],
+          "lime_r2": 0.06848915848070325
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.15492957746478872,
+          "precision_model": 0.3705050505050505,
+          "precision_true": 0.72,
+          "base_rate_model": 0.6245383411580595,
+          "instance": 14716,
+          "predicted": "1",
+          "rule": [
+            "LOTS_NUMBER > 17.00",
+            "0.00 < GROUP_CPV_33 <= 1.00",
+            "CAE_TYPE_5 <= 0.00"
+          ],
+          "lime_r2": 0.18524698944496276
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.08369327073552425,
+          "precision_model": 0.36948391922213913,
+          "precision_true": 0.19596110695587135,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 10472,
+          "predicted": "0",
+          "rule": [
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "LOTS_NUMBER <= 3.00",
+            "1.00 < NUMBER_OFFERS <= 3.00",
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_4 <= 0.00"
+          ],
+          "lime_r2": 0.20988145945309278
+        },
+        {
+          "n_conditions": 6,
+          "coverage": 0.12694835680751174,
+          "precision_model": 0.8062130177514792,
+          "precision_true": 0.27218934911242604,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 5564,
+          "predicted": "0",
+          "rule": [
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "GROUP_CPV_15 <= 0.00",
+            "0.00 < MAIN_ACTIVITY_health <= 1.00",
+            "1.00 < NUMBER_OFFERS <= 3.00",
+            "GROUP_CPV_45 <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00"
+          ],
+          "lime_r2": 0.04536377161954752
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.07849765258215963,
+          "precision_model": 0.35964912280701755,
+          "precision_true": 0.25757575757575757,
+          "base_rate_model": 0.37546165884194055,
+          "instance": 1624,
+          "predicted": "0",
+          "rule": [
+            "NUMBER_AWARDS > 20.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "GROUP_CPV_33 <= 0.00"
+          ],
+          "lime_r2": 0.22694671240973507
+        }
+      ]
+    },
+    "A": {
+      "summary": {
+        "n_rules": 20,
+        "empty_rules": 0,
+        "conditions_mean": 5.8,
+        "coverage_mean": 0.14961189358372454,
+        "coverage_median": 0.14779342723004696,
+        "precision_model_mean": 0.5592118789856126,
+        "precision_model_median": 0.5772265969197166,
+        "share_precision_ge_0.95": 0.15,
+        "precision_true_mean": 0.3933807077312929,
+        "base_rate_model_mean": 0.13259154929577466
+      },
+      "rules": [
+        {
+          "n_conditions": 3,
+          "coverage": 0.17339593114241,
+          "precision_model": 0.8548736462093863,
+          "precision_true": 0.8342960288808664,
+          "base_rate_model": 0.1748982785602504,
+          "instance": 1768,
+          "predicted": "general public\\services",
+          "rule": [
+            "CAE_TYPE_3 > 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "GROUP_CPV_33 <= 0.00"
+          ],
+          "lime_r2": 0.6689283727315395
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.4552738654147105,
+          "precision_model": 0.06709748384435583,
+          "precision_true": 0.014986937989825382,
+          "base_rate_model": 0.03298904538341158,
+          "instance": 1533,
+          "predicted": "economical anf financial affairs",
+          "rule": [
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "GROUP_CPV_45 <= 0.00"
+          ],
+          "lime_r2": 0.09449316802232477
+        },
+        {
+          "n_conditions": 6,
+          "coverage": 0.09014084507042254,
+          "precision_model": 0.18125,
+          "precision_true": 0.3527777777777778,
+          "base_rate_model": 0.06253521126760564,
+          "instance": 9129,
+          "predicted": "other",
+          "rule": [
+            "CAE_TYPE_4 <= 0.00",
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "GROUP_CPV_15 <= 0.00",
+            "CAE_TYPE_5 <= 0.00",
+            "8.00 < NUMBER_AWARDS <= 20.00"
+          ],
+          "lime_r2": 0.1763397989626061
+        },
+        {
+          "n_conditions": 8,
+          "coverage": 0.16012519561815336,
+          "precision_model": 0.5731039874902267,
+          "precision_true": 0.018373729476153244,
+          "base_rate_model": 0.1114866979655712,
+          "instance": 12190,
+          "predicted": "recreation; culture and religion",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "GROUP_CPV_45 <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "ISO_COUNTRY_CODE_si <= 0.00"
+          ],
+          "lime_r2": 0.1499077768797793
+        },
+        {
+          "n_conditions": 7,
+          "coverage": 0.13934272300469483,
+          "precision_model": 0.9577717879604672,
+          "precision_true": 0.9389038634321654,
+          "base_rate_model": 0.2948982785602504,
+          "instance": 12705,
+          "predicted": "health",
+          "rule": [
+            "0.00 < GROUP_CPV_33 <= 1.00",
+            "CAE_TYPE_4 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "NUMBER_AWARDS > 20.00",
+            "GROUP_CPV_45 <= 0.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00"
+          ],
+          "lime_r2": 0.8057525850143175
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.17339593114241,
+          "precision_model": 0.8548736462093863,
+          "precision_true": 0.8342960288808664,
+          "base_rate_model": 0.1748982785602504,
+          "instance": 4708,
+          "predicted": "general public\\services",
+          "rule": [
+            "CAE_TYPE_3 > 0.00",
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_4 <= 0.00"
+          ],
+          "lime_r2": 0.6941860338880381
+        },
+        {
+          "n_conditions": 7,
+          "coverage": 0.00018779342723004695,
+          "precision_model": 1.0,
+          "precision_true": 0.6666666666666666,
+          "base_rate_model": 0.007762128325508607,
+          "instance": 2085,
+          "predicted": "electricity",
+          "rule": [
+            "CAE_TYPE_4 > 0.00",
+            "GROUP_CPV_45 > 0.00",
+            "TYPE_OF_CONTRACT_w > 0.00",
+            "8.00 < NUMBER_AWARDS <= 20.00",
+            "GROUP_CPV_15 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "3.00 < NUMBER_OFFERS <= 4.00"
+          ],
+          "lime_r2": 0.5907831386734264
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.17339593114241,
+          "precision_model": 0.8548736462093863,
+          "precision_true": 0.8342960288808664,
+          "base_rate_model": 0.1748982785602504,
+          "instance": 2323,
+          "predicted": "general public\\services",
+          "rule": [
+            "CAE_TYPE_3 > 0.00",
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00"
+          ],
+          "lime_r2": 0.6782299362082223
+        },
+        {
+          "n_conditions": 3,
+          "coverage": 0.17339593114241,
+          "precision_model": 0.8548736462093863,
+          "precision_true": 0.8342960288808664,
+          "base_rate_model": 0.1748982785602504,
+          "instance": 7717,
+          "predicted": "general public\\services",
+          "rule": [
+            "CAE_TYPE_3 > 0.00",
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_4 <= 0.00"
+          ],
+          "lime_r2": 0.6860276003507104
+        },
+        {
+          "n_conditions": 6,
+          "coverage": 0.02810641627543036,
+          "precision_model": 0.4053452115812918,
+          "precision_true": 0.0935412026726058,
+          "base_rate_model": 0.10122065727699531,
+          "instance": 1799,
+          "predicted": "environment",
+          "rule": [
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "GROUP_CPV_15 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "4.00 < NUMBER_AWARDS <= 8.00",
+            "NUMBER_OFFERS <= 1.00"
+          ],
+          "lime_r2": 0.10913819748099607
+        },
+        {
+          "n_conditions": 7,
+          "coverage": 0.014522691705790297,
+          "precision_model": 0.034482758620689655,
+          "precision_true": 0.10775862068965517,
+          "base_rate_model": 0.002566510172143975,
+          "instance": 3411,
+          "predicted": "production; transport and distribution of gas and heat",
+          "rule": [
+            "CAE_TYPE_4 > 0.00",
+            "LOTS_NUMBER <= 3.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_5 <= 0.00",
+            "NUMBER_AWARDS <= 4.00"
+          ],
+          "lime_r2": 0.479615799148822
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.07924882629107981,
+          "precision_model": 0.28278041074249605,
+          "precision_true": 0.11058451816745656,
+          "base_rate_model": 0.03718309859154929,
+          "instance": 4031,
+          "predicted": "social protection",
+          "rule": [
+            "GROUP_CPV_15 > 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "GROUP_CPV_33 <= 0.00"
+          ],
+          "lime_r2": 0.1661492000371827
+        },
+        {
+          "n_conditions": 6,
+          "coverage": 0.10597809076682316,
+          "precision_model": 0.28115770821027763,
+          "precision_true": 0.10691080921441229,
+          "base_rate_model": 0.10122065727699531,
+          "instance": 11490,
+          "predicted": "environment",
+          "rule": [
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "GROUP_CPV_15 <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "8.00 < NUMBER_AWARDS <= 20.00",
+            "TYPE_OF_CONTRACT_w <= 0.00"
+          ],
+          "lime_r2": 0.08596499854546691
+        },
+        {
+          "n_conditions": 8,
+          "coverage": 0.15624413145539906,
+          "precision_model": 0.5869391025641025,
+          "precision_true": 0.018830128205128204,
+          "base_rate_model": 0.1114866979655712,
+          "instance": 12081,
+          "predicted": "recreation; culture and religion",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "GROUP_CPV_15 <= 0.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "CAE_TYPE_5 <= 0.00",
+            "GROUP_CPV_45 <= 0.00"
+          ],
+          "lime_r2": 0.137378580324249
+        },
+        {
+          "n_conditions": 4,
+          "coverage": 0.00594679186228482,
+          "precision_model": 0.11578947368421053,
+          "precision_true": 0.12631578947368421,
+          "base_rate_model": 0.1748982785602504,
+          "instance": 4826,
+          "predicted": "general public\\services",
+          "rule": [
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "ISO_COUNTRY_CODE_si > 0.00",
+            "NUMBER_OFFERS > 4.00"
+          ],
+          "lime_r2": 0.6277963877837532
+        },
+        {
+          "n_conditions": 5,
+          "coverage": 0.41364632237871674,
+          "precision_model": 0.23441283292978207,
+          "precision_true": 0.09745762711864407,
+          "base_rate_model": 0.10122065727699531,
+          "instance": 2227,
+          "predicted": "environment",
+          "rule": [
+            "GROUP_CPV_33 <= 0.00",
+            "GROUP_CPV_15 <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00"
+          ],
+          "lime_r2": 0.1120236847278725
+        },
+        {
+          "n_conditions": 6,
+          "coverage": 0.2888262910798122,
+          "precision_model": 0.9497182488079757,
+          "precision_true": 0.8992197659297789,
+          "base_rate_model": 0.2948982785602504,
+          "instance": 9767,
+          "predicted": "health",
+          "rule": [
+            "0.00 < GROUP_CPV_33 <= 1.00",
+            "CAE_TYPE_4 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "GROUP_CPV_45 <= 0.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "CAE_TYPE_5 <= 0.00"
+          ],
+          "lime_r2": 0.820262145572888
+        },
+        {
+          "n_conditions": 8,
+          "coverage": 0.13934272300469483,
+          "precision_model": 0.9577717879604672,
+          "precision_true": 0.9389038634321654,
+          "base_rate_model": 0.2948982785602504,
+          "instance": 6330,
+          "predicted": "health",
+          "rule": [
+            "0.00 < GROUP_CPV_33 <= 1.00",
+            "CAE_TYPE_4 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "NUMBER_AWARDS > 20.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "GROUP_CPV_15 <= 0.00"
+          ],
+          "lime_r2": 0.8327476472048139
+        },
+        {
+          "n_conditions": 8,
+          "coverage": 0.15774647887323945,
+          "precision_model": 0.5813492063492064,
+          "precision_true": 0.01865079365079365,
+          "base_rate_model": 0.1114866979655712,
+          "instance": 5364,
+          "predicted": "recreation; culture and religion",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "GROUP_CPV_15 <= 0.00",
+            "ISO_COUNTRY_CODE_si <= 0.00",
+            "TYPE_OF_CONTRACT_w <= 0.00",
+            "ISO_COUNTRY_CODE_lu <= 0.00"
+          ],
+          "lime_r2": 0.16879072904380654
+        },
+        {
+          "n_conditions": 8,
+          "coverage": 0.06397496087636932,
+          "precision_model": 0.5557729941291585,
+          "precision_true": 0.02054794520547945,
+          "base_rate_model": 0.1114866979655712,
+          "instance": 2238,
+          "predicted": "recreation; culture and religion",
+          "rule": [
+            "NUMBER_AWARDS <= 4.00",
+            "GROUP_CPV_33 <= 0.00",
+            "CAE_TYPE_3 <= 0.00",
+            "CAE_TYPE_4 <= 0.00",
+            "GROUP_CPV_15 <= 0.00",
+            "CAE_TYPE_5 <= 0.00",
+            "1.00 < NUMBER_OFFERS <= 3.00",
+            "GROUP_CPV_45 <= 0.00"
+          ],
+          "lime_r2": 0.11275942758762958
+        }
+      ]
+    },
+    "worked_example": {
+      "n_conditions": 4,
+      "coverage": 0.09251956181533647,
+      "precision_model": 0.7503382949932341,
+      "precision_true": 0.8349120433017592,
+      "base_rate_model": 0.6245383411580595,
+      "instance": 14,
+      "predicted": "1",
+      "rule": [
+        "LOTS_NUMBER > 17.00",
+        "CAE_TYPE_5 <= 0.00",
+        "CAE_TYPE_4 <= 0.00",
+        "MAIN_ACTIVITY_health <= 0.00"
+      ],
+      "lime_r2": 0.18742798499420354
+    }
+  },
+  "anchors": {
+    "error": "CalledProcessError(1, ['/usr/bin/python3', '-m', 'pip', 'install', '-q', 'alibi'])"
+  }
+}
