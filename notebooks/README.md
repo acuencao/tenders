@@ -1,6 +1,6 @@
 # Notebooks
 
-All notebooks were run on Google Colab and read the parquet file in [`../data/`](../data/README.md). Run cells one at a time rather than with *Run All*: several cells train models under 10-fold cross-validation and take from minutes to hours.
+All notebooks were run on Google Colab and read the parquet file in [`../data/`](../data/). Run cells one at a time rather than with *Run All*: several cells train models under 10-fold cross-validation and take from minutes to hours.
 
 Common settings across notebooks:
 
