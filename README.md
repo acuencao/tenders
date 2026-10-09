@@ -3,6 +3,7 @@
 Code, notebooks and results for the article
 
 > **Analysis of public tenders with rule-based systems to improve decision-making**
+> María Fernanda Molina-Miranda, Angel Cuenca-Ortega, Juan Fernandez-Olivares and Raúl Pérez.
 > Submitted to *Algorithms* (MDPI), manuscript algorithms-4553273.
 
 The repository is supplementary material for the article. Its purpose is to let reviewers and readers check how each reported figure was obtained.
@@ -31,7 +32,7 @@ tenders/
 └── environment.yml       conda environment
 ```
 
-See [`notebooks/README.md`](notebooks/README.md) for what each notebook does and how to run it, and [`data/README.md`](data/README.md) for the dataset.
+See [`notebooks/README.md`](notebooks/README.md) for what each notebook does and how to run it, and [`data/`](data/) for the dataset.
 
 ## Where each result comes from
 
@@ -65,4 +66,6 @@ or `conda env create -f environment.yml`.
 
 ## License
 
-See [`LICENSE`](LICENSE). The TED data are published by the European Commission under its open data policy.
+The code and notebooks are released under the MIT License (see [`LICENSE`](LICENSE)).
+
+The dataset in `data/` is derived from TED (Tenders Electronic Daily) open data published by the European Commission, which may be reused under the Commission's reuse policy (Decision 2011/833/EU) provided the source is acknowledged. The MIT License does not apply to these data.
