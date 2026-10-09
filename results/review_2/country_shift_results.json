@@ -1,0 +1,320 @@
+{
+  "overall_pooled": {
+    "f1_macro": 0.5863117099708943,
+    "auc": 0.7099046688189665
+  },
+  "overall_pooled_with_country_dummies": {
+    "f1_macro": 0.6235944342064088,
+    "auc": 0.7604248386622965
+  },
+  "descriptive": [
+    {
+      "country": "pl",
+      "n": 63038,
+      "sme_win_rate": 0.857,
+      "n_neg": 8985
+    },
+    {
+      "country": "ro",
+      "n": 21756,
+      "sme_win_rate": 0.635,
+      "n_neg": 7946
+    },
+    {
+      "country": "fr",
+      "n": 17924,
+      "sme_win_rate": 0.799,
+      "n_neg": 3608
+    },
+    {
+      "country": "hu",
+      "n": 15660,
+      "sme_win_rate": 0.868,
+      "n_neg": 2073
+    },
+    {
+      "country": "si",
+      "n": 7162,
+      "sme_win_rate": 0.92,
+      "n_neg": 573
+    },
+    {
+      "country": "uk",
+      "n": 5499,
+      "sme_win_rate": 0.868,
+      "n_neg": 728
+    },
+    {
+      "country": "de",
+      "n": 5053,
+      "sme_win_rate": 0.78,
+      "n_neg": 1110
+    },
+    {
+      "country": "bg",
+      "n": 3776,
+      "sme_win_rate": 0.933,
+      "n_neg": 253
+    },
+    {
+      "country": "es",
+      "n": 3452,
+      "sme_win_rate": 0.736,
+      "n_neg": 911
+    },
+    {
+      "country": "fi",
+      "n": 2813,
+      "sme_win_rate": 0.791,
+      "n_neg": 588
+    },
+    {
+      "country": "it",
+      "n": 2669,
+      "sme_win_rate": 0.854,
+      "n_neg": 389
+    },
+    {
+      "country": "hr",
+      "n": 2315,
+      "sme_win_rate": 0.803,
+      "n_neg": 457
+    },
+    {
+      "country": "lv",
+      "n": 2286,
+      "sme_win_rate": 0.929,
+      "n_neg": 162
+    },
+    {
+      "country": "cz",
+      "n": 1093,
+      "sme_win_rate": 0.931,
+      "n_neg": 75
+    },
+    {
+      "country": "lt",
+      "n": 1070,
+      "sme_win_rate": 0.921,
+      "n_neg": 85
+    },
+    {
+      "country": "at",
+      "n": 1025,
+      "sme_win_rate": 0.712,
+      "n_neg": 295
+    },
+    {
+      "country": "be",
+      "n": 752,
+      "sme_win_rate": 0.759,
+      "n_neg": 181
+    },
+    {
+      "country": "no",
+      "n": 743,
+      "sme_win_rate": 0.664,
+      "n_neg": 250
+    },
+    {
+      "country": "dk",
+      "n": 557,
+      "sme_win_rate": 0.697,
+      "n_neg": 169
+    },
+    {
+      "country": "nl",
+      "n": 307,
+      "sme_win_rate": 0.707,
+      "n_neg": 90
+    },
+    {
+      "country": "lu",
+      "n": 226,
+      "sme_win_rate": 0.801,
+      "n_neg": 45
+    },
+    {
+      "country": "pt",
+      "n": 180,
+      "sme_win_rate": 0.839,
+      "n_neg": 29
+    },
+    {
+      "country": "ie",
+      "n": 149,
+      "sme_win_rate": 0.779,
+      "n_neg": 33
+    },
+    {
+      "country": "gr",
+      "n": 116,
+      "sme_win_rate": 0.819,
+      "n_neg": 21
+    },
+    {
+      "country": "sk",
+      "n": 90,
+      "sme_win_rate": 0.989,
+      "n_neg": 1
+    },
+    {
+      "country": "se",
+      "n": 19,
+      "sme_win_rate": 0.842,
+      "n_neg": 3
+    },
+    {
+      "country": "mt",
+      "n": 14,
+      "sme_win_rate": 1.0,
+      "n_neg": 0
+    },
+    {
+      "country": "ee",
+      "n": 6,
+      "sme_win_rate": 1.0,
+      "n_neg": 0
+    },
+    {
+      "country": "cy",
+      "n": 1,
+      "sme_win_rate": 1.0,
+      "n_neg": 0
+    },
+    {
+      "country": "mk",
+      "n": 1,
+      "sme_win_rate": 1.0,
+      "n_neg": 0
+    }
+  ],
+  "per_country": [
+    {
+      "country": "pl",
+      "n": 63038,
+      "sme_win_rate": 0.8574669247120784,
+      "majority_f1_macro": 0.46163240556490254,
+      "a_within": {
+        "f1_macro": 0.592122184378179,
+        "auc": 0.7441018723960833
+      },
+      "b_pooled_included": {
+        "f1_macro": 0.567792762913997,
+        "auc": 0.7281909598795329
+      },
+      "c_pooled_excluded": {
+        "f1_macro": 0.5089851721791296,
+        "auc": 0.5565565335146183
+      }
+    },
+    {
+      "country": "ro",
+      "n": 21756,
+      "sme_win_rate": 0.6347674204817062,
+      "majority_f1_macro": 0.3882921891694315,
+      "a_within": {
+        "f1_macro": 0.710393758315528,
+        "auc": 0.7884516239504418
+      },
+      "b_pooled_included": {
+        "f1_macro": 0.6714871735015358,
+        "auc": 0.760865066206306
+      },
+      "c_pooled_excluded": {
+        "f1_macro": 0.49201293832291076,
+        "auc": 0.484394887248522
+      }
+    },
+    {
+      "country": "fr",
+      "n": 17924,
+      "sme_win_rate": 0.798705646061147,
+      "majority_f1_macro": 0.44404466501240697,
+      "a_within": {
+        "f1_macro": 0.540601177373753,
+        "auc": 0.6404517544756336
+      },
+      "b_pooled_included": {
+        "f1_macro": 0.5366452295569868,
+        "auc": 0.612469548205255
+      },
+      "c_pooled_excluded": {
+        "f1_macro": 0.5048668113984917,
+        "auc": 0.5362030292343425
+      }
+    },
+    {
+      "country": "hu",
+      "n": 15660,
+      "sme_win_rate": 0.867624521072797,
+      "majority_f1_macro": 0.46456046774028104,
+      "a_within": {
+        "f1_macro": 0.5798251799165355,
+        "auc": 0.7484346203493017
+      },
+      "b_pooled_included": {
+        "f1_macro": 0.5533055282814139,
+        "auc": 0.6955213247417946
+      },
+      "c_pooled_excluded": {
+        "f1_macro": 0.5009804146132785,
+        "auc": 0.5649229984210312
+      }
+    },
+    {
+      "country": "si",
+      "n": 7162,
+      "sme_win_rate": 0.919994414967886,
+      "majority_f1_macro": 0.47916515162533635,
+      "a_within": {
+        "f1_macro": 0.5105696929838361,
+        "auc": 0.7019620198347396
+      },
+      "b_pooled_included": {
+        "f1_macro": 0.5918022295326595,
+        "auc": 0.7118203245824324
+      },
+      "c_pooled_excluded": {
+        "f1_macro": 0.4747462206243169,
+        "auc": 0.5866357462342044
+      }
+    },
+    {
+      "country": "uk",
+      "n": 5499,
+      "sme_win_rate": 0.8676122931442081,
+      "majority_f1_macro": 0.46455696202531643,
+      "a_within": {
+        "f1_macro": 0.5699629833402482,
+        "auc": 0.7018087760070573
+      },
+      "b_pooled_included": {
+        "f1_macro": 0.5235282480741373,
+        "auc": 0.6534288259424499
+      },
+      "c_pooled_excluded": {
+        "f1_macro": 0.48066246458917855,
+        "auc": 0.5664412222654729
+      }
+    },
+    {
+      "country": "de",
+      "n": 5053,
+      "sme_win_rate": 0.7803285177122502,
+      "majority_f1_macro": 0.4383059137394398,
+      "a_within": {
+        "f1_macro": 0.5982396767978211,
+        "auc": 0.7137319414265901
+      },
+      "b_pooled_included": {
+        "f1_macro": 0.5661780774874341,
+        "auc": 0.6520212578797413
+      },
+      "c_pooled_excluded": {
+        "f1_macro": 0.5212874581718787,
+        "auc": 0.5629724703145955
+      }
+    }
+  ]
+}
